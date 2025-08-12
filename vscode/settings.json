@@ -1,4 +1,8 @@
 {
+  "[css][html][javascript][jsonc][markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.linkedEditing": true,
