@@ -1,6 +1,7 @@
 {
   "[css][html][javascript][jsonc][markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.rulers": [80]
   },
 
   "editor.formatOnSave": true,
