@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@font-face {
+  font-display: swap;
+  font-family: "Abel";
+  src: url("../fonts/abel-regular.woff2") format("woff2");
+}
 
 body {
   align-items: center;
