@@ -1,7 +1,7 @@
 @font-face {
   font-display: swap;
   font-family: "Abel";
-  src: url("../fonts/abel-regular.woff2") format("woff2");
+  src: url("../font/abel-regular.woff2") format("woff2");
 }
 
 body {
