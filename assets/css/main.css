@@ -1,3 +1,8 @@
+:root {
+  --background-color: #09090b;
+  --text-color: #f4f4f5;
+}
+
 @font-face {
   font-display: swap;
   font-family: "Abel";
@@ -6,7 +11,7 @@
 
 body {
   align-items: center;
-  background: #09090b;
+  background: var(--background-color);
   display: flex;
   font-family: "Abel", sans-serif;
   justify-content: center;
@@ -14,6 +19,6 @@ body {
 }
 
 p {
-  color: #f4f4f5;
+  color: var(--text-color);
   font-size: 24px;
 }
