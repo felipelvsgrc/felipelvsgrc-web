@@ -103,10 +103,6 @@ body {
   text-align: justify;
 }
 
-.home-text:last-child {
-  margin-bottom: 0;
-}
-
 .home-link {
   color: var(--text-color-alt);
   transition-duration: 128ms;
