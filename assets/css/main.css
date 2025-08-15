@@ -22,6 +22,7 @@ body {
   background: var(--background-color);
   color: var(--text-color);
   font-family: "Abel", sans-serif;
+  font-size: 16px;
 }
 
 .header {
@@ -81,5 +82,35 @@ body {
 
 .navbar-item a:hover,
 .navbar-item.active a {
+  color: var(--text-color);
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+.home-container {
+  justify-content: left;
+  max-width: 768px;
+  width: 90%;
+}
+
+.home-text {
+  line-height: 1.6;
+  margin-bottom: 32px;
+  text-align: justify;
+}
+
+.home-text:last-child {
+  margin-bottom: 0;
+}
+
+.home-link {
+  color: var(--text-color-alt);
+  transition-duration: 128ms;
+}
+
+.home-link:hover {
   color: var(--text-color);
 }
