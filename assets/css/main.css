@@ -81,9 +81,13 @@ body {
   transition-duration: 128ms;
 }
 
-.navbar-item a:hover,
+.navbar-item a:hover {
+  color: var(--text-color);
+}
+
 .navbar-item.active a {
   color: var(--text-color);
+  text-decoration: none;
 }
 
 .home {
