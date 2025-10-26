@@ -1,9 +1,19 @@
 :root {
-  --background-color: #000000;
-  --border-color-alt: #ebebeb;
-  --border-color: #141414;
-  --text-color-alt: #afafaf;
-  --text-color: #ffffff;
+  --background-color: #ffffff;
+  --border-color-alt: #141414;
+  --border-color: #ebebeb;
+  --text-color-alt: #505050;
+  --text-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000000;
+    --border-color-alt: #ebebeb;
+    --border-color: #141414;
+    --text-color-alt: #afafaf;
+    --text-color: #ffffff;
+  }
 }
 
 @font-face {
@@ -78,11 +88,6 @@ body {
 .navbar-item a {
   color: var(--text-color-alt);
   text-decoration: underline;
-  transition-duration: 128ms;
-}
-
-.navbar-item a:hover {
-  color: var(--text-color);
 }
 
 .navbar-item.active a {
@@ -109,9 +114,4 @@ body {
 
 .home-link {
   color: var(--text-color-alt);
-  transition-duration: 128ms;
-}
-
-.home-link:hover {
-  color: var(--text-color);
 }
