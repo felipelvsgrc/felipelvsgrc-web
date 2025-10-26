@@ -115,3 +115,44 @@ body {
 .home-link {
   color: var(--text-color-alt);
 }
+
+.writings {
+  margin: auto;
+  max-width: 768px;
+  width: 80%;
+}
+
+.writings-item {
+  justify-content: left;
+}
+
+.writings-item:not(:first-child) {
+  margin-top: 32px;
+}
+
+.writings-item-title,
+.writings-title {
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.writings-item-description {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.writings-item-link {
+  color: var(--text-color-alt);
+  display: block;
+  margin-top: 16px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.writings-text {
+  line-height: 1.6;
+  margin-bottom: 32px;
+  text-align: justify;
+}
